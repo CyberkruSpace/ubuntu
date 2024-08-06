@@ -408,6 +408,17 @@ div {
   background: #ffd700;
 }
 
+/* Make textarea responsive */
+#special_note {
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+@media (max-width: 576px) {
+  #special_note {
+      max-width: 100%;
+  }
+}
 /* Contact map */
 .leaflet-control a,
 .leaflet-control {
